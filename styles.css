@@ -1,0 +1,104 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Mukta', sans-serif; */
+
+body{
+    background-color: aliceblue;
+    
+}
+
+h1, h2{
+    font-family: 'Merriweather', serif;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+h4, h5, h6 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+}
+
+p{
+    margin-bottom: 0;
+    font-size: 1.2rem; 
+
+}
+/* Heading Section  */
+#heading{
+    text-align: center;
+}
+
+#heading h1 {
+    padding: 35px 0 0;
+    margin-bottom: 0;
+}
+
+#heading h4{
+    padding: 0 0 35px;
+}
+
+.heading-style{
+    background-color: rgb(124, 194, 255);
+    margin: 50px 500px;
+}
+
+/* Task Section  */
+.container-fluid {
+    padding: 0 10%;
+}
+
+.task-creator{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#task-table{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.col-md-2 label{
+    padding-top: 10px;
+    padding-left: 17px;
+}
+
+#floatingSelect1, #floatingSelect2, #floatingSelect3{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+select {
+    height: 49px;
+}
+  
+.col-md-2 select{
+    font-size: 1.2rem;
+}
+
+.form-control {
+    font-size: 1.5rem; 
+    height: 58px;
+}
+
+/* Buttons */
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 25px;
+    border: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.42857;
+}
+
+  
